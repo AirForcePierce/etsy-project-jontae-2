@@ -10,8 +10,6 @@ var templateFunction = _.template(templateString);
       dataType: 'jsonp',
       method: 'get'
     }).then (function (response) {
-      // console.log(response);
-      // itemstuff = response;
     _.each(response.results, function (item) {
       var itemHTML = templateFunction(item);
       $('.container').append(itemHTML);
