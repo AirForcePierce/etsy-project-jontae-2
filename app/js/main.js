@@ -3,7 +3,7 @@
 var itemstuff = '';
 (function () {
 
-  var etsyURL = 'https://api.etsy.com/v2/listings/active.js?api_key=h9oq2yf3twf4ziejn10b717i&keywords=computer+chair&includes=Images,Shop';
+  var etsyURL = 'https://api.etsy.com/v2/listings/active.js?api_key=h9oq2yf3twf4ziejn10b717i&keywords=whiskey&includes=Images,Shop';
   var templateString = $('#itemTemplate').text();
   var templateFunction = _.template(templateString);
 
